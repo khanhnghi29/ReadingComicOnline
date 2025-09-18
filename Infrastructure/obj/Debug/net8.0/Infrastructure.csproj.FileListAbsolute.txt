@@ -1,0 +1,15 @@
+C:\ASPCoreMVC\ComicOnline\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\ASPCoreMVC\ComicOnline\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\ASPCoreMVC\ComicOnline\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\ASPCoreMVC\ComicOnline\Infrastructure\bin\Debug\net8.0\Core.dll
+C:\ASPCoreMVC\ComicOnline\Infrastructure\bin\Debug\net8.0\Core.pdb
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\ASPCoreMVC\ComicOnline\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

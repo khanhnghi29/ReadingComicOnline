@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\10\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\10\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\11\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\11\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\12\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\12\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\13\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\13\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\14\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\14\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\15\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\15\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\16\\cover.png",
+      "PackagePath": "staticwebassets\\images\\comics\\16\\cover.png"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\17\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\17\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\18\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\18\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\19\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\19\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\20\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\20\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\21\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\21\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\22\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\22\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\23\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\23\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\24\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\24\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\25\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\25\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\26\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\26\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\27\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\27\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\28\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\28\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\29\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\29\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\30\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\30\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\31\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\31\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\32\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\32\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\33\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\33\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\34\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\34\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\35\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\35\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\36\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\36\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\37\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\37\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\38\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\38\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\39\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\39\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\4\\2abf3560-2cf9-4ffa-a0ef-fcd1efae723d_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\4\\2abf3560-2cf9-4ffa-a0ef-fcd1efae723d_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\4\\613424b9-e241-4b37-92a6-680e161b7353_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\4\\613424b9-e241-4b37-92a6-680e161b7353_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\4\\9be515b7-359e-41e4-96ac-f422cd401d0a_4.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\4\\9be515b7-359e-41e4-96ac-f422cd401d0a_4.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\4\\ba34b7b3-d145-4aaf-9503-a1437d03b963_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\4\\ba34b7b3-d145-4aaf-9503-a1437d03b963_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\5\\0afa1b1b-6fe5-4b3a-becb-5aef9432a22e_4.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\5\\0afa1b1b-6fe5-4b3a-becb-5aef9432a22e_4.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\5\\2ef3bd5f-228f-41a9-9467-d49856dc7e30_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\5\\2ef3bd5f-228f-41a9-9467-d49856dc7e30_1.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\5\\336330cf-9259-47cd-8698-0b0688fcf313_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\5\\336330cf-9259-47cd-8698-0b0688fcf313_2.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\5\\49b0e348-f23f-4af6-be03-b713d6a95ca7_3.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\5\\49b0e348-f23f-4af6-be03-b713d6a95ca7_3.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\6\\253f12e9-92cc-44c7-be7c-027d6965b4e6_4.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\6\\253f12e9-92cc-44c7-be7c-027d6965b4e6_4.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\6\\537b19c9-4364-4597-b4d7-7a54789ed0c3_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\6\\537b19c9-4364-4597-b4d7-7a54789ed0c3_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\6\\9da429d0-ee65-4179-957c-d9966fdbf9ae_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\6\\9da429d0-ee65-4179-957c-d9966fdbf9ae_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\6\\fc4a5233-0f8e-499f-a33d-973ed90a77f0_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\6\\fc4a5233-0f8e-499f-a33d-973ed90a77f0_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\7\\1bb9ece1-1c7a-4443-902b-344a7de2d267_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\7\\1bb9ece1-1c7a-4443-902b-344a7de2d267_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\7\\23f3a820-d6ef-403e-b6a5-76ca25bc6a5e_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\7\\23f3a820-d6ef-403e-b6a5-76ca25bc6a5e_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\7\\b2fc9563-0db2-4995-8b9d-861010261ced_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\7\\b2fc9563-0db2-4995-8b9d-861010261ced_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\8\\4ccf655f-9612-4061-a85e-55ce93b4bafc_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\8\\4ccf655f-9612-4061-a85e-55ce93b4bafc_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\8\\a4541b1d-ae76-4f0f-b9b9-b25a40e6b996_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\8\\a4541b1d-ae76-4f0f-b9b9-b25a40e6b996_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\8\\bd50c487-d22c-42ab-9461-51619d7cd804_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\8\\bd50c487-d22c-42ab-9461-51619d7cd804_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\9\\2a534fc7-a6c9-4c3d-91aa-b922a05bb033_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\9\\2a534fc7-a6c9-4c3d-91aa-b922a05bb033_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\9\\7afcb684-aace-4560-844d-5bcc7e2aa51e_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\9\\7afcb684-aace-4560-844d-5bcc7e2aa51e_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\chapters\\9\\e0ac4658-306a-47f2-bb53-5ce05d31446f_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\chapters\\9\\e0ac4658-306a-47f2-bb53-5ce05d31446f_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\3\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\3\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\40\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\40\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\41\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\41\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\42\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\42\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\43\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\43\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\44\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\44\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\45\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\45\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\46\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\46\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\47\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\47\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\48\\chapters\\16\\3abbcfff-a63f-4ad3-b9ef-cb0ae39087e0_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\48\\chapters\\16\\3abbcfff-a63f-4ad3-b9ef-cb0ae39087e0_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\48\\chapters\\16\\87951e7d-ecc2-4a44-8931-a35a5eaaa48c_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\48\\chapters\\16\\87951e7d-ecc2-4a44-8931-a35a5eaaa48c_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\48\\chapters\\16\\de9c3eac-8958-46ac-88e2-ecf0c48d9abe_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\48\\chapters\\16\\de9c3eac-8958-46ac-88e2-ecf0c48d9abe_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\48\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\48\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\13\\959e4928-d990-440a-8241-23af625da707_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\13\\959e4928-d990-440a-8241-23af625da707_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\13\\b655366d-3038-414d-a92e-c12c75d2d909_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\13\\b655366d-3038-414d-a92e-c12c75d2d909_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\13\\b739a845-6b6a-4889-b644-250e7873b96f_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\13\\b739a845-6b6a-4889-b644-250e7873b96f_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\14\\9913997e-2b9f-4c33-8f6d-6e7f9119f8b1_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\14\\9913997e-2b9f-4c33-8f6d-6e7f9119f8b1_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\14\\a2fc3f3a-b2d3-4e17-9756-72d17132dddf_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\14\\a2fc3f3a-b2d3-4e17-9756-72d17132dddf_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\14\\db345ec2-7705-409d-80cf-0cd7d55a770a_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\14\\db345ec2-7705-409d-80cf-0cd7d55a770a_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\14\\f8e68754-9bfd-459f-9b7d-72db6236a57e_4.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\14\\f8e68754-9bfd-459f-9b7d-72db6236a57e_4.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\05f17c04-0e93-4426-b521-ffa211e9581e_5.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\05f17c04-0e93-4426-b521-ffa211e9581e_5.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\1d7a41bc-274c-49d2-aa1f-079d60e0c3fb_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\1d7a41bc-274c-49d2-aa1f-079d60e0c3fb_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\3f3fb8e1-da07-4345-92c8-5defe2d54806_4.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\3f3fb8e1-da07-4345-92c8-5defe2d54806_4.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\56881115-9fdf-4766-adf8-51e618f56e87_6.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\56881115-9fdf-4766-adf8-51e618f56e87_6.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\61a773f9-9dd6-4476-a82e-ad1a3f940755_7.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\61a773f9-9dd6-4476-a82e-ad1a3f940755_7.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\bc5038e0-79f6-4ae2-ae0d-4be739c3433a_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\bc5038e0-79f6-4ae2-ae0d-4be739c3433a_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\chapters\\15\\cee30366-06b0-4fa4-8496-db38f84347ba_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\chapters\\15\\cee30366-06b0-4fa4-8496-db38f84347ba_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\4\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\2\\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\2\\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\2\\22256b20-0f86-4a40-9e79-030a344ef0ec_4.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\2\\22256b20-0f86-4a40-9e79-030a344ef0ec_4.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\2\\488f89f5-69b0-4986-8396-fb8cba7949e9_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\2\\488f89f5-69b0-4986-8396-fb8cba7949e9_2.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\2\\8f223a9e-bf90-4918-bdd6-32340c1f4db9_3.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\2\\8f223a9e-bf90-4918-bdd6-32340c1f4db9_3.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\3\\00768dbf-7152-44e6-91d3-5e28ee2603bf_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\3\\00768dbf-7152-44e6-91d3-5e28ee2603bf_2.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\3\\0feb9f87-58ba-443f-b909-c4890022c750_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\3\\0feb9f87-58ba-443f-b909-c4890022c750_1.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\3\\50007f30-3f8d-463d-ad98-1b67b8068690_3.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\3\\50007f30-3f8d-463d-ad98-1b67b8068690_3.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\3\\dc5e42bb-4278-4280-9dda-1178165dc876_4.jpeg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\3\\dc5e42bb-4278-4280-9dda-1178165dc876_4.jpeg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\6\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\7\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\7\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\8\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\8\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\9\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\9\\cover.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
