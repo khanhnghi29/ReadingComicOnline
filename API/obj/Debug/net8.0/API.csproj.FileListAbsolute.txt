@@ -91,3 +91,4 @@ C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\refint\API.dll
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.pdb
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\ref\API.dll
+C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.sourcelink.json

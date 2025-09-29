@@ -2,7 +2,9 @@
 import Link from 'next/link';
 import { ComicResponseDto, GenreDto } from '@/app/types';
 import ComicImage from '@/app/components/ComicImage';
-
+import NavbarGenres from '@/app/components/NavbarGenres';
+import NavbarSearch from '@/app/components/NavbarSearch';
+import { FaHome } from 'react-icons/fa';
 const BASE_API_URL = 'http://localhost:5244';
 
 async function fetchComicsByGenre(genreId: string, page: number = 1, pageSize: number = 30) {
@@ -37,6 +39,19 @@ export default async function GenrePage({ params, searchParams }: { params: Prom
 
     return (
       <div>
+        <nav className="bg-blue-800 text-white shadow-lg sticky top-0 z-10">
+          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <Link href="/" className="text-2xl font-bold">Kata</Link>
+              <Link href="/" className="flex items-center space-x-1 hover:bg-blue-700 px-3 py-2 rounded-md">
+                <FaHome />
+                <span>Trang chủ</span>
+              </Link>
+              <NavbarGenres />
+            </div>
+            <NavbarSearch />
+          </div>
+        </nav>
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Thể loại: {genreName}</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {comics.map((comic) => (

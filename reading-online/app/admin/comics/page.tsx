@@ -8,7 +8,6 @@ import { FaPlus, FaEdit, FaBook } from 'react-icons/fa';
 
 async function fetchComics() {
   try {
-    console.log('Đang fetch từ API...');
     const res = await fetch('http://localhost:5244/api/Comics', { cache: 'no-store' });
     console.log('Response status:', res.status);
     
@@ -18,25 +17,6 @@ async function fetchComics() {
       throw new Error(`HTTP ${res.status}: ${errorText}`);
     }
     
-  //   const data = await res.json();
-  //   console.log('Raw data from API:', data);
-  //   console.log('Is array?', Array.isArray(data));
-    
-  //   if (!Array.isArray(data)) {
-  //     console.warn('Data is not an array, returning empty array');
-  //     return [];
-  //   }
-
-  //   // Log check comicId (nên không undefined nữa)
-  //   data.forEach((comic: any, index: number) => {
-  //     console.log(`Item ${index}: comicId = ${comic.comicId}`); // Dùng camelCase
-  //   });
-    
-  //   return data as ComicResponseDto[];
-  // } catch (error) {
-  //   console.error('Full fetch error:', error);
-  //   return [];
-  // }
   const data = await res.json();
     if (!Array.isArray(data)) return [];
     return data as ComicResponseDto[];

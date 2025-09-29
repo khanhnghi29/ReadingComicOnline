@@ -1069,7 +1069,7 @@
       ]
     },
     {
-      "Route": "images/comics/23/cover.e82lksmkxa.jpg",
+      "Route": "images/comics/23/cover.70o0et5mlc.jpg",
       "AssetFile": "images/comics/23/cover.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1083,7 +1083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19355"
+          "Value": "13887"
         },
         {
           "Name": "Content-Type",
@@ -1091,21 +1091,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ch3FZnxprVqORyM32WaWF+eoskK9fXC0u+YtLYu8vYY=\""
+          "Value": "\"eVT6IbtyXAOL4KBtKyULhFEh/rCcwwUzfivw39rFMbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 04:54:02 GMT"
+          "Value": "Mon, 29 Sep 2025 15:12:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e82lksmkxa"
+          "Value": "70o0et5mlc"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ch3FZnxprVqORyM32WaWF+eoskK9fXC0u+YtLYu8vYY="
+          "Value": "sha256-eVT6IbtyXAOL4KBtKyULhFEh/rCcwwUzfivw39rFMbg="
         },
         {
           "Name": "label",
@@ -1128,7 +1128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19355"
+          "Value": "13887"
         },
         {
           "Name": "Content-Type",
@@ -1136,17 +1136,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ch3FZnxprVqORyM32WaWF+eoskK9fXC0u+YtLYu8vYY=\""
+          "Value": "\"eVT6IbtyXAOL4KBtKyULhFEh/rCcwwUzfivw39rFMbg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 04:54:02 GMT"
+          "Value": "Mon, 29 Sep 2025 15:12:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ch3FZnxprVqORyM32WaWF+eoskK9fXC0u+YtLYu8vYY="
+          "Value": "sha256-eVT6IbtyXAOL4KBtKyULhFEh/rCcwwUzfivw39rFMbg="
         }
       ]
     },
@@ -3871,7 +3871,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19946"
+          "Value": "19872"
         },
         {
           "Name": "Content-Type",
@@ -3879,22 +3879,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DXkphoviLbzflHT/QgrUOtM11TtOpsqkpPqTa/MVmRA=\""
+          "Value": "\"QkJ1OyXEQBWoYdjRFfJxQMUtMvAt6BPhlJvXxtQ9l5U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 05:27:46 GMT"
+          "Value": "Mon, 29 Sep 2025 15:16:38 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DXkphoviLbzflHT/QgrUOtM11TtOpsqkpPqTa/MVmRA="
+          "Value": "sha256-QkJ1OyXEQBWoYdjRFfJxQMUtMvAt6BPhlJvXxtQ9l5U="
         }
       ]
     },
     {
-      "Route": "images/comics/35/cover.nrx4j4w6a4.jpg",
+      "Route": "images/comics/35/cover.qhgdxuzkcf.jpg",
       "AssetFile": "images/comics/35/cover.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3908,7 +3908,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19946"
+          "Value": "19872"
         },
         {
           "Name": "Content-Type",
@@ -3916,21 +3916,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DXkphoviLbzflHT/QgrUOtM11TtOpsqkpPqTa/MVmRA=\""
+          "Value": "\"QkJ1OyXEQBWoYdjRFfJxQMUtMvAt6BPhlJvXxtQ9l5U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 05:27:46 GMT"
+          "Value": "Mon, 29 Sep 2025 15:16:38 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nrx4j4w6a4"
+          "Value": "qhgdxuzkcf"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DXkphoviLbzflHT/QgrUOtM11TtOpsqkpPqTa/MVmRA="
+          "Value": "sha256-QkJ1OyXEQBWoYdjRFfJxQMUtMvAt6BPhlJvXxtQ9l5U="
         },
         {
           "Name": "label",
@@ -6413,7 +6413,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60234"
+          "Value": "19633"
         },
         {
           "Name": "Content-Type",
@@ -6421,22 +6421,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=\""
+          "Value": "\"P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Sep 2025 17:23:27 GMT"
+          "Value": "Mon, 29 Sep 2025 15:07:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0="
+          "Value": "sha256-P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY="
         }
       ]
     },
     {
-      "Route": "images/comics/48/cover.yrq9li3vcg.jpg",
+      "Route": "images/comics/48/cover.tpi4imzjjw.jpg",
       "AssetFile": "images/comics/48/cover.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6450,7 +6450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "60234"
+          "Value": "19633"
         },
         {
           "Name": "Content-Type",
@@ -6458,25 +6458,107 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=\""
+          "Value": "\"P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 15 Sep 2025 17:23:27 GMT"
+          "Value": "Mon, 29 Sep 2025 15:07:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yrq9li3vcg"
+          "Value": "tpi4imzjjw"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0="
+          "Value": "sha256-P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY="
         },
         {
           "Name": "label",
           "Value": "images/comics/48/cover.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/cover.jpg",
+      "AssetFile": "images/comics/50/cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 14:20:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/cover.qm8jsea8m1.jpg",
+      "AssetFile": "images/comics/50/cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26875"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 14:20:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qm8jsea8m1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4="
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/cover.jpg"
         }
       ]
     },

@@ -62,6 +62,7 @@ namespace API.Controllers
             }
 
             var token = _jwtService.GenerateToken(user);
+            Console.WriteLine($"User {dto.UserName} đã đăng nhập thành công");
             return Ok(new { message = "Login successful", token, username = user.UserName, roleId = user.RoleId });
         }
     }

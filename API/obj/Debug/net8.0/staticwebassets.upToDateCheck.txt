@@ -77,6 +77,7 @@ wwwroot\images\comics\48\cover.jpg
 wwwroot\images\comics\48\chapters\16\3abbcfff-a63f-4ad3-b9ef-cb0ae39087e0_3.jpg
 wwwroot\images\comics\48\chapters\16\87951e7d-ecc2-4a44-8931-a35a5eaaa48c_1.jpg
 wwwroot\images\comics\48\chapters\16\de9c3eac-8958-46ac-88e2-ecf0c48d9abe_2.jpg
+wwwroot\images\comics\50\cover.jpg
 wwwroot\images\comics\6\cover.jpg
 wwwroot\images\comics\6\chapters\2\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg
 wwwroot\images\comics\6\chapters\2\22256b20-0f86-4a40-9e79-030a344ef0ec_4.jpeg

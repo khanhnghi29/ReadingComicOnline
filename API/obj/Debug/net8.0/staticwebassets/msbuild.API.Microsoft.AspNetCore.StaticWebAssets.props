@@ -246,8 +246,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e82lksmkxa</Fingerprint>
-      <Integrity>ch3FZnxprVqORyM32WaWF+eoskK9fXC0u+YtLYu8vYY=</Integrity>
+      <Fingerprint>70o0et5mlc</Fingerprint>
+      <Integrity>eVT6IbtyXAOL4KBtKyULhFEh/rCcwwUzfivw39rFMbg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\23\cover.jpg'))</OriginalItemSpec>
@@ -858,8 +858,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nrx4j4w6a4</Fingerprint>
-      <Integrity>DXkphoviLbzflHT/QgrUOtM11TtOpsqkpPqTa/MVmRA=</Integrity>
+      <Fingerprint>qhgdxuzkcf</Fingerprint>
+      <Integrity>QkJ1OyXEQBWoYdjRFfJxQMUtMvAt6BPhlJvXxtQ9l5U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\35\cover.jpg'))</OriginalItemSpec>
@@ -1416,11 +1416,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yrq9li3vcg</Fingerprint>
-      <Integrity>MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=</Integrity>
+      <Fingerprint>tpi4imzjjw</Fingerprint>
+      <Integrity>P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\48\cover.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\50\cover.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/API</BasePath>
+      <RelativePath>images/comics/50/cover.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qm8jsea8m1</Fingerprint>
+      <Integrity>cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\50\cover.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\comics\6\chapters\2\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg'))">
       <SourceType>Package</SourceType>

@@ -1,9 +1,15 @@
 import { ReactNode } from 'react';
 import Link from 'next/link';
 import { FaHome, FaUser, FaTag } from 'react-icons/fa';
+import { ProtectedRoute } from '@/components/ProtectedRoute';
 
-export default function AdminLayout({ children }: { children: ReactNode }) {
+export default function AdminLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
+  <ProtectedRoute requiredRole="Admin" redirectTo="/unauthorized">
     <div className="min-h-screen bg-gray-50">
       <nav className="bg-blue-800 text-white shadow-lg sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 py-3">
@@ -31,5 +37,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       </nav>
       <main className="max-w-7xl mx-auto p-6">{children}</main>
     </div>
+  </ProtectedRoute>  
   );
 }

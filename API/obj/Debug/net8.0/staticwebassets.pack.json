@@ -317,6 +317,10 @@
       "PackagePath": "staticwebassets\\images\\comics\\4\\cover.jpg"
     },
     {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\cover.jpg"
+    },
+    {
       "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\chapters\\2\\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg",
       "PackagePath": "staticwebassets\\images\\comics\\6\\chapters\\2\\09c06e29-6303-45d3-a0ce-6123b9252476_1.jpeg"
     },
