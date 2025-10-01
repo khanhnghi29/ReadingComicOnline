@@ -107,7 +107,7 @@ export default function EditComicPage({ params }: Props) {
       <div className="max-w-2xl mx-auto">
         <div className="flex items-center justify-center py-12">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
-          <span className="ml-3 text-gray-600">Đang tải...</span>
+          <span className="ml-3 text-black-600">Đang tải...</span>
         </div>
       </div>
     );
@@ -135,7 +135,7 @@ export default function EditComicPage({ params }: Props) {
 
   if (!comic) {
     return (
-      <div className="max-w-2xl mx-auto text-center text-gray-600">
+      <div className="max-w-2xl mx-auto text-center text-black-600">
         Comic not found
       </div>
     );
@@ -145,12 +145,12 @@ export default function EditComicPage({ params }: Props) {
     <div className="max-w-2xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-bold text-gray-800">
+        <h1 className="text-3xl font-bold text-black-800">
           Sửa Comic: {comic.title}
         </h1>
         <Link
           href="/admin/comics"
-          className="inline-flex items-center px-3 py-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
+          className="inline-flex items-center px-3 py-2 text-sm text-black-600 hover:text-black-900 transition-colors"
         >
           <FaArrowLeft className="mr-2" />
           Quay lại
@@ -167,7 +167,7 @@ export default function EditComicPage({ params }: Props) {
       {/* Current Image Preview */}
       {comic.comicImageUrl && (
         <div className="mb-6 bg-white p-4 rounded-lg shadow">
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Current Image:
           </label>
           <div className="relative w-48 h-64">
@@ -193,7 +193,7 @@ export default function EditComicPage({ params }: Props) {
 
         {/* Title */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Title <span className="text-red-500">*</span>
           </label>
           <input
@@ -207,7 +207,7 @@ export default function EditComicPage({ params }: Props) {
 
         {/* Description */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Description
           </label>
           <textarea
@@ -220,7 +220,7 @@ export default function EditComicPage({ params }: Props) {
 
         {/* Comic Image */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Update Comic Image
           </label>
           <input
@@ -229,14 +229,14 @@ export default function EditComicPage({ params }: Props) {
             accept="image/*"
             className="border border-gray-300 p-2 w-full rounded-md file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
           />
-          <p className="mt-1 text-sm text-gray-500">
+          <p className="mt-1 text-sm text-black-500">
             Leave empty to keep current image
           </p>
         </div>
 
         {/* Author */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Author <span className="text-red-500">*</span>
           </label>
           <select
@@ -256,8 +256,8 @@ export default function EditComicPage({ params }: Props) {
 
         {/* Genres */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
-            Genres <span className="text-gray-500 text-sm">(chọn nhiều)</span>
+          <label className="block text-black-700 font-semibold mb-2">
+            Genres <span className="text-black-500 text-sm">(chọn nhiều)</span>
           </label>
           <select
             name="genreIds"
@@ -271,14 +271,14 @@ export default function EditComicPage({ params }: Props) {
               </option>
             ))}
           </select>
-          <p className="mt-1 text-sm text-gray-500">
+          <p className="mt-1 text-sm text-black-500">
             Hold Ctrl/Cmd to select multiple genres
           </p>
         </div>
 
         {/* Price */}
         <div>
-          <label className="block text-gray-700 font-semibold mb-2">
+          <label className="block text-black-700 font-semibold mb-2">
             Price (VND)
           </label>
           <input
@@ -304,7 +304,7 @@ export default function EditComicPage({ params }: Props) {
 
           <Link
             href="/admin/comics"
-            className="px-6 py-3 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50 transition-colors"
+            className="px-6 py-3 border border-gray-300 text-black-700 rounded-md hover:bg-gray-50 transition-colors"
           >
             Hủy
           </Link>
@@ -313,8 +313,8 @@ export default function EditComicPage({ params }: Props) {
 
       {/* Comic Info */}
       <div className="mt-6 bg-gray-50 p-4 rounded-lg">
-        <h3 className="font-semibold text-gray-700 mb-2">Comic Information</h3>
-        <div className="text-sm text-gray-600 space-y-1">
+        <h3 className="font-semibold text-black-700 mb-2">Comic Information</h3>
+        <div className="text-sm text-black-600 space-y-1">
           <p><strong>ID:</strong> {comic.comicId}</p>
           <p><strong>Total Views:</strong> {comic.totalViews?.toLocaleString() || 0}</p>
           <p><strong>Created:</strong> {comic.createAt ? new Date(comic.createAt).toLocaleDateString() : 'N/A'}</p>
@@ -426,12 +426,12 @@ export default function EditComicPage({ params }: Props) {
 //   }
 
 //   if (!comic) {
-//     return <div className="text-gray-600 text-center">Đang tải...</div>;
+//     return <div className="text-black-600 text-center">Đang tải...</div>;
 //   }
 
 //   return (
 //     <div className="max-w-2xl mx-auto">
-//       <h1 className="text-3xl font-bold text-gray-800 mb-6">Sửa Comic: {comic.title}</h1>
+//       <h1 className="text-3xl font-bold text-black-800 mb-6">Sửa Comic: {comic.title}</h1>
 //       <form
 //         onSubmit={(e) => {
 //           e.preventDefault();
@@ -441,7 +441,7 @@ export default function EditComicPage({ params }: Props) {
 //       >
 //         <input type="hidden" name="id" value={comic.comicId} />
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Title:</label>
+//           <label className="block text-black-700 font-semibold">Title:</label>
 //           <input
 //             type="text"
 //             name="title"
@@ -451,7 +451,7 @@ export default function EditComicPage({ params }: Props) {
 //           />
 //         </div>
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Description:</label>
+//           <label className="block text-black-700 font-semibold">Description:</label>
 //           <textarea
 //             name="description"
 //             defaultValue={comic.comicDescription}
@@ -460,11 +460,11 @@ export default function EditComicPage({ params }: Props) {
 //           />
 //         </div>
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Comic Image (hiện tại: {comic.comicImageUrl}):</label>
+//           <label className="block text-black-700 font-semibold">Comic Image (hiện tại: {comic.comicImageUrl}):</label>
 //           <input type="file" name="image" accept="image/*" className="border border-gray-300 p-2 w-full rounded-md" />
 //         </div>
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Author:</label>
+//           <label className="block text-black-700 font-semibold">Author:</label>
 //           <select
 //             name="authorId"
 //             defaultValue={comic.authorId}
@@ -480,7 +480,7 @@ export default function EditComicPage({ params }: Props) {
 //           </select>
 //         </div>
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Genres:</label>
+//           <label className="block text-black-700 font-semibold">Genres:</label>
 //           <select
 //             name="genreIds"
 //             multiple
@@ -495,7 +495,7 @@ export default function EditComicPage({ params }: Props) {
 //           </select>
 //         </div>
 //         <div>
-//           <label className="block text-gray-700 font-semibold">Price:</label>
+//           <label className="block text-black-700 font-semibold">Price:</label>
 //           <input
 //             type="number"
 //             name="price"

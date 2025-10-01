@@ -40,28 +40,34 @@ export default function RootLayout({
             
             {/* Footer - luôn ở bottom */}
             <footer className="bg-gray-800 text-white py-4 mt-auto">
+              <div>
+                <div className="max-w-7xl mx-auto px-4 flex justify-center space-x-6">             
+                  <a 
+                    href="https://github.com/khanhnghi29" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-gray-300 transition-colors"
+                  >
+                    MyRepositoryOnGitHub
+                  </a>
+                </div>
+              </div>
+              <div>  
               <div className="max-w-7xl mx-auto px-4 flex justify-center space-x-6">
                 <a 
-                  href="https://github.com" 
+                  href="https://www.linkedin.com/in/kh%C3%A1nh-nghi-14174724b/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors"
                 >
-                  GitHub
+                  MyProfieOnLinkedIn
                 </a>
-                <a 
-                  href="https://linkedin.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-gray-300 transition-colors"
-                >
-                  LinkedIn
-                </a>
+              </div>
               </div>
             </footer>
           </div>
           {/* Debug component - chỉ hiển thị trong development */}
-          <AuthDebug />
+          {/* <AuthDebug /> */}
         </AuthProvider>
       </body>
     </html>

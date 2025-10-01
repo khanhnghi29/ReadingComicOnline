@@ -250,5 +250,13 @@ namespace Infrastructure.Data
                 return (response, totalCount);
             }
         }
+        public async Task IncrementViewAsync(int comicId)
+        {
+            var query = "UPDATE Comics SET TotalViews = TotalViews + 1 WHERE ComicId = @Id";
+            using (var connection = _context.CreateConnection())
+            {
+                await connection.ExecuteAsync(query, new { Id = comicId });
+            }
+        }
     }
 }

@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\1050\\cover.jpg"
+    },
+    {
       "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\10\\cover.jpg",
       "PackagePath": "staticwebassets\\images\\comics\\10\\cover.jpg"
     },
@@ -213,10 +229,6 @@
       "PackagePath": "staticwebassets\\images\\comics\\40\\cover.jpg"
     },
     {
-      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\41\\cover.jpg",
-      "PackagePath": "staticwebassets\\images\\comics\\41\\cover.jpg"
-    },
-    {
       "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\42\\cover.jpg",
       "PackagePath": "staticwebassets\\images\\comics\\42\\cover.jpg"
     },
@@ -315,6 +327,38 @@
     {
       "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\4\\cover.jpg",
       "PackagePath": "staticwebassets\\images\\comics\\4\\cover.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg"
+    },
+    {
+      "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg",
+      "PackagePath": "staticwebassets\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg"
     },
     {
       "Id": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\cover.jpg",

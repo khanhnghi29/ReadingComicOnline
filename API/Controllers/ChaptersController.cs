@@ -64,6 +64,7 @@ namespace API.Controllers
                 CreateAt = chapter.CreateAt,
                 ChapterImages = (await _unitOfWork.ChapterImages.GetImagesByChapterIdAsync(chapterId)).ToList()
             };
+            await _unitOfWork.Comics.IncrementViewAsync(comicId);
             return Ok(response);
         }
 

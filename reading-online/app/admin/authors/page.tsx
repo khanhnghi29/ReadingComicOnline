@@ -35,9 +35,9 @@ export default async function AuthorsPage() {
       )}
 
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold text-gray-800">Danh sách Authors</h1>
+        <h1 className="text-3xl font-bold text-black-800">Danh sách Authors</h1>
         
-        <form action={addAuthor} className="flex items-center space-x-2">
+        <form action={addAuthor} className="flex items-center text-black space-x-2">
           <input
             type="text"
             name="name"
@@ -47,7 +47,7 @@ export default async function AuthorsPage() {
           />
           <button 
             type="submit" 
-            className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+            className="flex items-center space-x-2 bg-blue-600 text-black px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
           >
             <FaPlus />
             <span>Thêm</span>
@@ -56,37 +56,37 @@ export default async function AuthorsPage() {
       </div>
 
       {/* Authors Table */}
-      <div className="bg-white rounded-lg shadow overflow-hidden">
+      <div className="bg-white rounded-lg text-black shadow overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider">
                   ID
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider">
                   Name
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black uppercase tracking-wider">
                   Actions
                 </th>
               </tr>
             </thead>
-            <tbody className="bg-white divide-y divide-gray-200">
+            <tbody className="bg-white divide-y divide-gray-900">
               {authors.length === 0 ? (
                 <tr>
-                  <td colSpan={3} className="px-6 py-4 text-center text-gray-500">
+                  <td colSpan={3} className="px-6 py-4 text-center text-black">
                     No authors found. Add your first author to get started.
                   </td>
                 </tr>
               ) : (
                 authors.map((author) => (
                   <tr key={author.authorId} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-black">
                       {author.authorId}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-sm font-medium text-gray-900">
+                      <div className="text-sm font-medium text-black">
                         {author.authorName}
                       </div>
                     </td>
@@ -98,12 +98,12 @@ export default async function AuthorsPage() {
                             type="text"
                             name="name"
                             defaultValue={author.authorName}
-                            className="border border-gray-300 p-1 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                            className="border border-black text-black p-1 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                             required
                           />
                           <button 
                             type="submit" 
-                            className="text-blue-600 hover:text-blue-800 transition-colors"
+                            className="text-black hover:text-black transition-colors"
                             title="Update Author"
                           >
                             <FaEdit className="h-4 w-4" />
@@ -124,7 +124,7 @@ export default async function AuthorsPage() {
         </div>
       </div>
 
-      <div className="mt-6 text-center text-sm text-gray-500">
+      <div className="mt-6 text-center text-sm text-black">
         Total Authors: <strong>{authors.length}</strong>
       </div>
     </div>

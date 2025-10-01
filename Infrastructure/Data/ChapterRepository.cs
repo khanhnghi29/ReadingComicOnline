@@ -184,6 +184,7 @@ namespace Infrastructure.Data
         //        await connection.ExecuteAsync(query, entity);
         //    }
         //}
+        
 
         public async Task DeleteAsync(int comicId, int chapterId)
         {

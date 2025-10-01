@@ -30,9 +30,9 @@ export default async function GenresPage() {
       )}
 
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold text-gray-800">Danh sách Genres</h1>
+        <h1 className="text-3xl font-bold text-black-800">Danh sách Genres</h1>
         
-        <form action={addGenre} className="flex items-center space-x-2">
+        <form action={addGenre} className="flex items-center text-black space-x-2">
           <input
             type="text"
             name="name"
@@ -42,7 +42,7 @@ export default async function GenresPage() {
           />
           <button 
             type="submit" 
-            className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
+            className="flex items-center space-x-2 bg-blue-600 text-black px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
           >
             <FaPlus />
             <span>Thêm</span>
@@ -51,18 +51,18 @@ export default async function GenresPage() {
       </div>
 
       {/* Genres Table */}
-      <div className="bg-white rounded-lg shadow overflow-hidden">
+      <div className="bg-white text-black rounded-lg shadow overflow-hidden">
         <div className="overflow-x-auto">
           <table className="w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">
                   ID
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">
                   Name
                 </th>
-                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">
                   Actions
                 </th>
               </tr>
@@ -70,18 +70,18 @@ export default async function GenresPage() {
             <tbody className="bg-white divide-y divide-gray-200">
               {genres.length === 0 ? (
                 <tr>
-                  <td colSpan={3} className="px-6 py-4 text-center text-gray-500">
+                  <td colSpan={3} className="px-6 py-4 text-center text-black">
                     No genres found. Add your first genre to get started.
                   </td>
                 </tr>
               ) : (
                 genres.map((genre) => (
                   <tr key={genre.genreId} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-black">
                       {genre.genreId}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
-                      <div className="text-sm font-medium text-gray-900">
+                      <div className="text-sm font-medium text-black">
                         {genre.genreName}
                       </div>
                     </td>
@@ -119,7 +119,7 @@ export default async function GenresPage() {
         </div>
       </div>
 
-      <div className="mt-6 text-center text-sm text-gray-500">
+      <div className="mt-6 text-center text-sm text-black-500">
         Total Genres: <strong>{genres.length}</strong>
       </div>
     </div>

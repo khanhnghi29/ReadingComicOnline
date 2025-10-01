@@ -52,6 +52,8 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
           </div>
         </nav>
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Kết quả tìm kiếm: {query || 'Tất cả'}</h1>
+        <div className="w-full flex justify-center">
+        <div className="max-w-7xl w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {comics.map((comic) => (
             <div key={comic.comicId} className="bg-white rounded-lg shadow-md p-4">
@@ -66,6 +68,8 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
               </Link>
             </div>
           ))}
+        </div>
+        </div>
         </div>
         {totalPages > 1 && (
           <div className="flex justify-center space-x-2 mt-6">

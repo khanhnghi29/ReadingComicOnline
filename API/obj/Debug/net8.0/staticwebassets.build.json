@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xQtUlcSynmVpC5HzbZZ1JKfiPWd7PKXQ41aVnfj+XR8=",
+  "Hash": "Cm/zsNTN+PzUcfwnkmFAWS76zTUOkfuaXU5ZUOqPYbs=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -36,6 +36,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\comics\\10\\cover.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\cover.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/1050/cover#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zpdfi9tcf1",
+      "Integrity": "ySZVzvRXIzP2B0zTJHHfF6h1D4lWy+NpfTACVrpDK1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\1050\\cover.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/1050/chapters/1017/2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bvi4f39k2q",
+      "Integrity": "hyNiHlRHeBJ91vqx3zN93vd7ua6Bqcg5AnnUebCB+ew=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/1050/chapters/1017/e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6uai2m8iye",
+      "Integrity": "XmEdVEJ8jPcojXqt4hg9MIxja2Kf2bPxeYT2v1lJEiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/1050/chapters/1017/ea383f62-330b-49e7-bafd-d0190c469649_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u2hgpkwlzw",
+      "Integrity": "doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg"
     },
     {
       "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\11\\cover.jpg",
@@ -1445,27 +1529,6 @@
       "OriginalItemSpec": "wwwroot\\images\\comics\\40\\cover.jpg"
     },
     {
-      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\41\\cover.jpg",
-      "SourceId": "API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
-      "BasePath": "_content/API",
-      "RelativePath": "images/comics/41/cover#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "yftz2onp8f",
-      "Integrity": "ztFOCOwEMbJoCEowTS9ElOlq4NVb90RTJddw/K7bhnA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\comics\\41\\cover.jpg"
-    },
-    {
       "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\42\\cover.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
@@ -1606,8 +1669,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tpi4imzjjw",
-      "Integrity": "P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=",
+      "Fingerprint": "yrq9li3vcg",
+      "Integrity": "MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\comics\\48\\cover.jpg"
@@ -1695,6 +1758,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\comics\\50\\cover.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/02171c3c-3c38-4f7b-838d-31b17996dce2_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ltpt388if5",
+      "Integrity": "B9WcTP4FZuj/3XaB1OWcCGysRZjMrnh4qksDO9Q2gZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/0632b475-5f80-4fa8-9f75-54f97e8a2368_5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khgfbhgbde",
+      "Integrity": "OJCMDqucVngwOprQYX9kWMPuhU17rg9Vkqh18t7q2zE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/1a73b31f-85ae-408b-b7ef-6d0233847e7e_4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mvogukh95f",
+      "Integrity": "DiD9P4KMh7flbgtZuE8vuD3XFL17upWg+TmjGSY+lkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/20f6b382-c0d1-418c-8153-b2b61817e456_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qlgkehuzlt",
+      "Integrity": "8hwWkrFoT5H02OL054vwymVU/n6YKT7vgmLEVdr02T8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/342ae08d-3554-433b-92f0-a9530d80dc6f_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5dffa9lyiq",
+      "Integrity": "idnVWLQG6cU5v4R6GRApCYuf0Lwo6FgK66jwo+4vcHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sh2jukwkks",
+      "Integrity": "oL5JoUF0S6eFRmzI/f+xkN4oPfqnWwyxOvEp/DdurRI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/65328422-4d8b-455f-afca-476a8b83dede_6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gfulm66hax",
+      "Integrity": "tCRynwaR34qXqf+v2j6BpFxoR5p5V4rzvcx1OxinP2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/50/chapters/17/d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4guktt7miy",
+      "Integrity": "JJi3qF6Q1xhlWYBelxodOWZBZa6i4eeulCKF+nw/Ay8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg"
     },
     {
       "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\6\\cover.jpg",
@@ -2029,6 +2260,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-jZbr0eybP2uFF5qOFFvcGn1fEr8pNzCzrsuQrOOmMOg="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/cover.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ySZVzvRXIzP2B0zTJHHfF6h1D4lWy+NpfTACVrpDK1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:34:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ySZVzvRXIzP2B0zTJHHfF6h1D4lWy+NpfTACVrpDK1Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/cover.zpdfi9tcf1.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ySZVzvRXIzP2B0zTJHHfF6h1D4lWy+NpfTACVrpDK1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:34:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpdfi9tcf1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/1050/cover.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ySZVzvRXIzP2B0zTJHHfF6h1D4lWy+NpfTACVrpDK1Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.bvi4f39k2q.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hyNiHlRHeBJ91vqx3zN93vd7ua6Bqcg5AnnUebCB+ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvi4f39k2q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/1050/chapters/1017/2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hyNiHlRHeBJ91vqx3zN93vd7ua6Bqcg5AnnUebCB+ew="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "225655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hyNiHlRHeBJ91vqx3zN93vd7ua6Bqcg5AnnUebCB+ew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hyNiHlRHeBJ91vqx3zN93vd7ua6Bqcg5AnnUebCB+ew="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.6uai2m8iye.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XmEdVEJ8jPcojXqt4hg9MIxja2Kf2bPxeYT2v1lJEiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6uai2m8iye"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/1050/chapters/1017/e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XmEdVEJ8jPcojXqt4hg9MIxja2Kf2bPxeYT2v1lJEiQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XmEdVEJ8jPcojXqt4hg9MIxja2Kf2bPxeYT2v1lJEiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XmEdVEJ8jPcojXqt4hg9MIxja2Kf2bPxeYT2v1lJEiQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/ea383f62-330b-49e7-bafd-d0190c469649_2.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1050/chapters/1017/ea383f62-330b-49e7-bafd-d0190c469649_2.u2hgpkwlzw.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 05:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u2hgpkwlzw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/1050/chapters/1017/ea383f62-330b-49e7-bafd-d0190c469649_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc="
         }
       ]
     },
@@ -3039,7 +3598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:12:06 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3084,7 +3643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:12:06 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5827,7 +6386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:16:38 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5864,7 +6423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:16:38 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7527,88 +8086,6 @@
       ]
     },
     {
-      "Route": "images/comics/41/cover.jpg",
-      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\41\\cover.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztFOCOwEMbJoCEowTS9ElOlq4NVb90RTJddw/K7bhnA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 08:51:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ztFOCOwEMbJoCEowTS9ElOlq4NVb90RTJddw/K7bhnA="
-        }
-      ]
-    },
-    {
-      "Route": "images/comics/41/cover.yftz2onp8f.jpg",
-      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\41\\cover.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ztFOCOwEMbJoCEowTS9ElOlq4NVb90RTJddw/K7bhnA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 08:51:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yftz2onp8f"
-        },
-        {
-          "Name": "label",
-          "Value": "images/comics/41/cover.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ztFOCOwEMbJoCEowTS9ElOlq4NVb90RTJddw/K7bhnA="
-        }
-      ]
-    },
-    {
       "Route": "images/comics/42/cover.b4sx2ybpr8.jpg",
       "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\42\\cover.jpg",
       "Selectors": [],
@@ -8111,7 +8588,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19633"
+          "Value": "60234"
         },
         {
           "Name": "Content-Type",
@@ -8119,11 +8596,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=\""
+          "Value": "\"MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:07:43 GMT"
+          "Value": "Mon, 29 Sep 2025 15:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8133,12 +8610,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY="
+          "Value": "sha256-MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0="
         }
       ]
     },
     {
-      "Route": "images/comics/48/cover.tpi4imzjjw.jpg",
+      "Route": "images/comics/48/cover.yrq9li3vcg.jpg",
       "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\48\\cover.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8148,7 +8625,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19633"
+          "Value": "60234"
         },
         {
           "Name": "Content-Type",
@@ -8156,11 +8633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY=\""
+          "Value": "\"MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 15:07:43 GMT"
+          "Value": "Mon, 29 Sep 2025 15:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8170,7 +8647,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tpi4imzjjw"
+          "Value": "yrq9li3vcg"
         },
         {
           "Name": "label",
@@ -8178,7 +8655,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P24Uj0tOEm/pPg9Ne5ZH/OA6PVGJ6OZvLuzgrX67oJY="
+          "Value": "sha256-MmOM65qQFm2Ov7beLjsuNyBeDSw0f2Wu8NA8GwIcdF0="
         }
       ]
     },
@@ -8451,7 +8928,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 14:20:11 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8488,7 +8965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 29 Sep 2025 14:20:11 GMT"
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8507,6 +8984,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-cuaiWQ7t20w04n37jHTY1EtcM+611cEOpO2tnkzrmp4="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B9WcTP4FZuj/3XaB1OWcCGysRZjMrnh4qksDO9Q2gZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B9WcTP4FZuj/3XaB1OWcCGysRZjMrnh4qksDO9Q2gZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/02171c3c-3c38-4f7b-838d-31b17996dce2_3.ltpt388if5.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "397495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B9WcTP4FZuj/3XaB1OWcCGysRZjMrnh4qksDO9Q2gZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ltpt388if5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/02171c3c-3c38-4f7b-838d-31b17996dce2_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B9WcTP4FZuj/3XaB1OWcCGysRZjMrnh4qksDO9Q2gZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJCMDqucVngwOprQYX9kWMPuhU17rg9Vkqh18t7q2zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJCMDqucVngwOprQYX9kWMPuhU17rg9Vkqh18t7q2zE="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/0632b475-5f80-4fa8-9f75-54f97e8a2368_5.khgfbhgbde.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OJCMDqucVngwOprQYX9kWMPuhU17rg9Vkqh18t7q2zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khgfbhgbde"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/0632b475-5f80-4fa8-9f75-54f97e8a2368_5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OJCMDqucVngwOprQYX9kWMPuhU17rg9Vkqh18t7q2zE="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DiD9P4KMh7flbgtZuE8vuD3XFL17upWg+TmjGSY+lkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DiD9P4KMh7flbgtZuE8vuD3XFL17upWg+TmjGSY+lkc="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.mvogukh95f.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DiD9P4KMh7flbgtZuE8vuD3XFL17upWg+TmjGSY+lkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mvogukh95f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/1a73b31f-85ae-408b-b7ef-6d0233847e7e_4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DiD9P4KMh7flbgtZuE8vuD3XFL17upWg+TmjGSY+lkc="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8hwWkrFoT5H02OL054vwymVU/n6YKT7vgmLEVdr02T8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8hwWkrFoT5H02OL054vwymVU/n6YKT7vgmLEVdr02T8="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/20f6b382-c0d1-418c-8153-b2b61817e456_2.qlgkehuzlt.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346555"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8hwWkrFoT5H02OL054vwymVU/n6YKT7vgmLEVdr02T8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlgkehuzlt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/20f6b382-c0d1-418c-8153-b2b61817e456_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8hwWkrFoT5H02OL054vwymVU/n6YKT7vgmLEVdr02T8="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/342ae08d-3554-433b-92f0-a9530d80dc6f_1.5dffa9lyiq.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idnVWLQG6cU5v4R6GRApCYuf0Lwo6FgK66jwo+4vcHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dffa9lyiq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-idnVWLQG6cU5v4R6GRApCYuf0Lwo6FgK66jwo+4vcHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\342ae08d-3554-433b-92f0-a9530d80dc6f_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428943"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"idnVWLQG6cU5v4R6GRApCYuf0Lwo6FgK66jwo+4vcHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-idnVWLQG6cU5v4R6GRApCYuf0Lwo6FgK66jwo+4vcHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oL5JoUF0S6eFRmzI/f+xkN4oPfqnWwyxOvEp/DdurRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oL5JoUF0S6eFRmzI/f+xkN4oPfqnWwyxOvEp/DdurRI="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.sh2jukwkks.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oL5JoUF0S6eFRmzI/f+xkN4oPfqnWwyxOvEp/DdurRI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sh2jukwkks"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/46ffd00a-e68f-4b3a-82ab-e12cab6d49d6_7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oL5JoUF0S6eFRmzI/f+xkN4oPfqnWwyxOvEp/DdurRI="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/65328422-4d8b-455f-afca-476a8b83dede_6.gfulm66hax.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCRynwaR34qXqf+v2j6BpFxoR5p5V4rzvcx1OxinP2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfulm66hax"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/65328422-4d8b-455f-afca-476a8b83dede_6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCRynwaR34qXqf+v2j6BpFxoR5p5V4rzvcx1OxinP2g="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/65328422-4d8b-455f-afca-476a8b83dede_6.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\65328422-4d8b-455f-afca-476a8b83dede_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCRynwaR34qXqf+v2j6BpFxoR5p5V4rzvcx1OxinP2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCRynwaR34qXqf+v2j6BpFxoR5p5V4rzvcx1OxinP2g="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.4guktt7miy.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JJi3qF6Q1xhlWYBelxodOWZBZa6i4eeulCKF+nw/Ay8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4guktt7miy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/50/chapters/17/d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JJi3qF6Q1xhlWYBelxodOWZBZa6i4eeulCKF+nw/Ay8="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/50/chapters/17/d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\50\\chapters\\17\\d4e9010c-3d1d-4133-afa4-385c4dc34f6c_8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JJi3qF6Q1xhlWYBelxodOWZBZa6i4eeulCKF+nw/Ay8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Sep 2025 16:07:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JJi3qF6Q1xhlWYBelxodOWZBZa6i4eeulCKF+nw/Ay8="
         }
       ]
     },

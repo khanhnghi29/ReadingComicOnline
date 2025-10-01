@@ -19,5 +19,6 @@ namespace Core.Interfaces
         Task<IEnumerable<Comic>> GetAllAsync();
         Task<(IEnumerable<ComicResponseDto> Comics, int TotalCount)> SearchComicsAsync(string? searchTerm, int page, int pageSize = 30);
         Task<(IEnumerable<ComicResponseDto> Comics, int TotalCount)> GetComicsByGenreAsync(int genreId, int page, int pageSize = 30);
+        Task IncrementViewAsync(int id);
     }
 }

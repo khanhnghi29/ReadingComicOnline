@@ -79,26 +79,6 @@ export async function updateComicAction(formData: FormData) {
 
 // Fetch comic with authentication
 export async function fetchComic(id: string) {
-  // try {
-  //   await requireAuth('Admin');
-    
-  //   const res = await fetchWithAuth(`http://localhost:5244/api/Comics/${id}`, { 
-  //     cache: 'no-store' 
-  //   });
-    
-  //   console.log('Fetch comic status:', res.status);
-    
-  //   if (!res.ok) {
-  //     const errorText = await res.text();
-  //     console.error('Fetch comic error:', errorText);
-  //     throw new Error('Failed to fetch comic');
-  //   }
-    
-  //   return await res.json();
-  // } catch (error) {
-  //   console.error('Error fetching comic:', error);
-  //   throw error;
-  // }
   const res = await fetch('http://localhost:5244/api/Comics/' + id, { cache: 'no-store' });
     console.log('Fetch comic status:', res.status);
     if (!res.ok) {
