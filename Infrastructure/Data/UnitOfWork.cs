@@ -26,6 +26,9 @@ namespace Infrastructure.Data
         public IChapterRepository Chapters { get; }
         public IChapterImageRepository ChapterImages { get; }
         public IUserRepository Users { get; }
+        public IBookPurchaseRepository BookPurchases { get; }
+        public ISubscriptionPurchaseRepository SubscriptionPurchases { get; }
+        public ISubscriptionRepository Subscriptions { get; }
 
         public UnitOfWork(DapperContext context, UploadService uploadService, IWebHostEnvironment environment, PasswordHasher passwordHasher)
         {
@@ -39,8 +42,11 @@ namespace Infrastructure.Data
             Genres = new GenreRepository(context);
             ChapterImages = new ChapterImageRepository(context); // Khởi tạo trước để truyền vào ChapterRepository
             Comics = new ComicRepository(context, uploadService, environment);
-            Chapters = new ChapterRepository(context, uploadService, environment, ChapterImages); //error here
+            Chapters = new ChapterRepository(context, uploadService, environment, ChapterImages); 
             Users = new UserRepository(context, passwordHasher);
+            BookPurchases = new BookPurchaseRepository(context);
+            SubscriptionPurchases = new SubscriptionPurchaseRepository(context);
+            Subscriptions = new SubscriptionRepository(context);
         }
         public async Task<int> CompleteAsync()
         {

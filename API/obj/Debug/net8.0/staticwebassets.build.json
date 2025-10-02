@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cm/zsNTN+PzUcfwnkmFAWS76zTUOkfuaXU5ZUOqPYbs=",
+  "Hash": "Dmbh9j/Hy1rpJiXCz8NfD1XxiOP5jNBLGkRYDDd6NHQ=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\comics\\1050\\chapters\\1017\\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg"
+    },
+    {
+      "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1052\\cover.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "images/comics/1052/cover#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5qqsh126iu",
+      "Integrity": "TWtwtMfeZSlS23FjzxilAbizhuySY8g6n2G/5UmweXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\comics\\1052\\cover.jpg"
     },
     {
       "Identity": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\11\\cover.jpg",
@@ -2588,6 +2609,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-doPhU3S/5tYb6RQ+JhBPJ0L+9ZCqeMBMettEckgdhsc="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1052/cover.5qqsh126iu.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1052\\cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TWtwtMfeZSlS23FjzxilAbizhuySY8g6n2G/5UmweXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 13:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5qqsh126iu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/comics/1052/cover.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TWtwtMfeZSlS23FjzxilAbizhuySY8g6n2G/5UmweXs="
+        }
+      ]
+    },
+    {
+      "Route": "images/comics/1052/cover.jpg",
+      "AssetFile": "C:\\ASPCoreMVC\\ComicOnline\\API\\wwwroot\\images\\comics\\1052\\cover.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TWtwtMfeZSlS23FjzxilAbizhuySY8g6n2G/5UmweXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 13:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TWtwtMfeZSlS23FjzxilAbizhuySY8g6n2G/5UmweXs="
         }
       ]
     },
@@ -8518,7 +8621,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 13:17:04 GMT"
+          "Value": "Wed, 01 Oct 2025 10:11:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8563,7 +8666,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 13 Sep 2025 13:17:04 GMT"
+          "Value": "Wed, 01 Oct 2025 10:11:13 GMT"
         },
         {
           "Name": "Cache-Control",

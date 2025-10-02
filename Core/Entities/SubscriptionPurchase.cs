@@ -11,7 +11,7 @@ namespace Core.Entities
         public int PurchaseId { get; set; }
         public string UserName { get; set; }
         public int SubscriptionId { get; set; }
-        public int PaymnetMethodId { get; set; }
+        public int PaymentMethodId { get; set; }
         public int PaymentStatusId { get; set; }
         public DateTime PaymentDate { get; set; }
         public DateTime ExpireDate { get; set; }

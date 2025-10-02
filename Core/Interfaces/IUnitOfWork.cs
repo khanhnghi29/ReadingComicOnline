@@ -14,7 +14,9 @@ namespace Core.Interfaces
         IChapterRepository Chapters { get; }
         IChapterImageRepository ChapterImages { get; }
         IUserRepository Users { get; }
-
+        IBookPurchaseRepository BookPurchases { get; }
+        ISubscriptionPurchaseRepository SubscriptionPurchases { get; }
+        ISubscriptionRepository Subscriptions { get; }
         Task<int> CompleteAsync();
 
     }

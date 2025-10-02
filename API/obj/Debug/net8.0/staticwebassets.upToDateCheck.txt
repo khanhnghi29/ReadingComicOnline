@@ -3,6 +3,7 @@ wwwroot\images\comics\1050\cover.jpg
 wwwroot\images\comics\1050\chapters\1017\2d8e8f8b-cb52-4b41-a892-559f8a7bca9d_1.jpg
 wwwroot\images\comics\1050\chapters\1017\e368d4fc-ab79-4c66-9fd8-c48d5432cf1c_3.jpg
 wwwroot\images\comics\1050\chapters\1017\ea383f62-330b-49e7-bafd-d0190c469649_2.jpg
+wwwroot\images\comics\1052\cover.jpg
 wwwroot\images\comics\11\cover.jpg
 wwwroot\images\comics\12\cover.jpg
 wwwroot\images\comics\13\cover.jpg

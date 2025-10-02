@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Infrastructure.Services
 {
+   
     public class JwtService
     {
         private readonly string _secretKey;

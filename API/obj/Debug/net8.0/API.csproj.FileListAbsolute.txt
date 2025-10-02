@@ -74,6 +74,7 @@ C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.AssemblyInfo.cs
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.sourcelink.json
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\staticwebassets.build.json
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\staticwebassets.development.json
@@ -91,4 +92,3 @@ C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\refint\API.dll
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.pdb
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\ref\API.dll
-C:\ASPCoreMVC\ComicOnline\API\obj\Debug\net8.0\API.sourcelink.json
