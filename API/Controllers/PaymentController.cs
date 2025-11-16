@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Specialized;
 using Microsoft.IdentityModel.JsonWebTokens;
+using Core.Dtos;
 
 
 namespace API.Controllers
@@ -16,187 +17,226 @@ namespace API.Controllers
     public class PaymentController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly VNPayService _vnpayService;
+        private readonly VNPayService _vnPayService;
+        private readonly ILogger<PaymentController> _logger;
 
-        public PaymentController(IUnitOfWork unitOfWork, VNPayService vnpayService)
+        public PaymentController(IUnitOfWork unitOfWork, VNPayService vnPayService, ILogger<PaymentController> logger)
         {
             _unitOfWork = unitOfWork;
-            _vnpayService = vnpayService;
+            _vnPayService = vnPayService;
+            _logger = logger;
         }
 
         [HttpPost("book/{comicId}")]
         [Authorize(Roles = "Reader")]
-        public async Task<ActionResult<string>> PurchaseBook(int comicId)
+        public async Task<ActionResult<string>> PurchaseBook([FromBody] CreateBookPaymentRequest request)
         {
-            var comic = await _unitOfWork.Comics.GetByIdAsync(comicId);
-            if (comic == null)
+            try
             {
-                return NotFound("Comic not found.");
+                var comic = await _unitOfWork.Comics.GetByIdAsync(request.ComicId);
+                if (comic == null)
+                {
+                    return NotFound("Comic not found.");
+                }
+
+
+                var userName = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                Console.WriteLine($"Ten cua user da mua: {userName}");
+                if (string.IsNullOrEmpty(userName))
+                {
+                    return Unauthorized("User not authenticated.");
+                }
+
+                // Kiểm tra user đã mua comic chưa
+                var hasPurchased = await _unitOfWork.BookPurchases.GetPurchasedComicsAsync(userName);
+                var isPurchased = hasPurchased.Any(p => p.ComicId == request.ComicId && p.PaymentStatusId == 2);
+                if (isPurchased)
+                {
+                    return BadRequest("You have already purchased this comic.");
+                }
+
+
+                var bookPurchase = new BookPurchaseDto
+                {
+                    UserName = userName,
+                    ComicId = request.ComicId,
+                    PaymentMethodId = 1, // VNPay
+                    PaymentStatusId = 1, // Pending
+                    PaymentDate = DateTime.Now,
+                    TransactionId = Guid.NewGuid().ToString(),
+                    Amount = comic.Price
+                };
+
+                // Lưu và nhận về PurchaseId từ DB
+                var purchaseId = await _unitOfWork.BookPurchases.AddAsync(bookPurchase);
+                await _unitOfWork.CompleteAsync();
+
+                Console.WriteLine($"Created BookPurchase with ID: {purchaseId}");
+
+                // Tạo VNPay payment URL
+                var vnPayModel = new VNPayRequestModel
+                {
+                    OrderId = purchaseId.ToString(),
+                    Amount = bookPurchase.Amount,
+                    CreatedDate = DateTime.Now,
+                    OrderType = "billpayment",
+                    ExpireDate = DateTime.Now.AddMinutes(15)
+                };
+
+                var paymentUrl = _vnPayService.CreatePaymentUrl(HttpContext, vnPayModel);
+
+                return Ok(new
+                {
+                    purchaseId = purchaseId,
+                    paymentUrl = paymentUrl
+                });
             }
-            // Debug: Log tất cả claims
-            Console.WriteLine("Claims in token:");
-            foreach (var claim in User.Claims)
+            catch (Exception ex)
             {
-                Console.WriteLine($"Type: {claim.Type}, Value: {claim.Value}");
+                _logger.LogError(ex, "Error occurred while processing book purchase.");
+                return StatusCode(500, "An error occurred while processing your request.");
+
             }
-            //var userName = User.FindFirst(ClaimTypes.Name)?.Value;
-            var userName = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            Console.WriteLine("UserName: " + userName);
-            if (string.IsNullOrEmpty(userName))
-            {
-                return Unauthorized("User not authenticated.");
-            }
-
-            // Tạo BookPurchase record với PaymentStatus = Pending (1)
-            var bookPurchase = new BookPurchase
-            {
-                UserName = userName,
-                ComicId = comicId,
-                PaymentMethodId = 2, // VNPay
-                PaymentStatusId = 2, // Pending
-                PaymentDate = DateTime.Now,
-                TransactionId = Guid.NewGuid().ToString(), // OrderId tạm thời
-                Amount = comic.Price
-            };
-
-            var purchaseId = await _unitOfWork.BookPurchases.AddAsync(bookPurchase);
-            await _unitOfWork.CompleteAsync();
-
-            // Tạo payment URL từ VNPay
-            var paymentUrl = _vnpayService.CreatePaymentUrl(purchaseId.ToString(), bookPurchase.Amount, userName, $"Thanh toán mua Comic: {comic.Title}");
-
-            return Ok(new { PaymentUrl = paymentUrl });
         }
-
         [HttpPost("subscription/{subscriptionId}")]
         [Authorize(Roles = "Reader")]
-        public async Task<ActionResult<string>> PurchaseSubscription(int subscriptionId)
+        public async Task<ActionResult<string>> PurchaseSubscription([FromBody] CreateSubscriptionPaymentRequest request)
         {
-            // Sửa lỗi: Lấy từ Subscriptions thay vì SubscriptionPurchases
-            var subscription = await _unitOfWork.Subscriptions.GetByIdAsync(subscriptionId);
-            if (subscription == null)
+            try
             {
-                return NotFound("Subscription not found.");
+                var subscription = await _unitOfWork.Subscriptions.GetByIdAsync(request.SubscriptionId);
+                if (subscription == null)
+                {
+                    return NotFound("Subscription not found.");
+                }
+                var userName = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (string.IsNullOrEmpty(userName))
+                { 
+                    return Unauthorized("User not authenticated.");
+                }
+                var subscriptionPurchase = new SubscriptionPurchaseDto
+                {
+                    UserName = userName,
+                    SubscriptionId = request.SubscriptionId,
+                    PaymentMethodId = 1,
+                    PaymentStatusId = 1,
+                    PaymentDate = DateTime.Now,
+                    ExpiryDate = DateTime.Now.AddDays(subscription.Duration),
+                    TransactionId = Guid.NewGuid().ToString(),
+                    Amount = subscription.Price
+                };
+
+                // Lưu và nhận về PurchaseId
+                var purchaseId = await _unitOfWork.SubscriptionPurchases.AddAsync(subscriptionPurchase);
+                await _unitOfWork.CompleteAsync();
+
+                Console.WriteLine($"Created SubscriptionPurchase with ID: {purchaseId}");
+
+                // Tạo VNPay payment URL
+                var vnPayModel = new VNPayRequestModel
+                {
+                    OrderId = $"SUB{purchaseId}",
+                    Amount = subscriptionPurchase.Amount,
+                    CreatedDate = DateTime.Now,
+                    OrderType = "billpayment",
+                    ExpireDate = DateTime.Now.AddMinutes(15)
+                };
+
+                var paymentUrl = _vnPayService.CreatePaymentUrl(HttpContext, vnPayModel);
+
+                return Ok(new
+                {
+                    purchaseId = purchaseId,
+                    paymentUrl = paymentUrl
+                });
             }
-            // Debug: Log tất cả claims
-            Console.WriteLine("Claims in token:");
-            foreach (var claim in User.Claims)
+            catch (Exception ex)
             {
-                Console.WriteLine($"Type: {claim.Type}, Value: {claim.Value}");
+                _logger.LogError(ex, "Error creating subscription payment");
+                return StatusCode(500, new { message = "Internal server error" });
             }
-            //var userName = User.FindFirst(ClaimTypes.Name)?.Value;
-            //var userName = User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value;
-            var userName = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            Console.WriteLine("UserName: " + userName);
-            if (string.IsNullOrEmpty(userName))
-            {
-                return Unauthorized("User not authenticated.");
-            }
-
-            var subscriptionPurchase = new SubscriptionPurchase
-            {
-                UserName = userName,
-                SubscriptionId = subscriptionId,
-                PaymentMethodId = 2, // VNPay
-                PaymentStatusId = 2, // Pending
-                PaymentDate = DateTime.Now,
-                ExpireDate = DateTime.Now.AddMonths(subscription.Duration),
-                TransactionId = Guid.NewGuid().ToString(),
-                Amount = subscription.Price
-            };
-
-            var purchaseId = await _unitOfWork.SubscriptionPurchases.AddAsync(subscriptionPurchase);
-            await _unitOfWork.CompleteAsync();
-
-            var paymentUrl = _vnpayService.CreatePaymentUrl(purchaseId.ToString(), subscriptionPurchase.Amount, userName, $"Thanh toán Subscription ID {subscriptionId}");
-
-            return Ok(new { PaymentUrl = paymentUrl });
         }
 
         [HttpGet("vnpay-callback")]
         public async Task<ActionResult> VNPayCallback()
         {
-            // Sử dụng Request.Query thay vì Request.Form
-            var queryParams = new NameValueCollection();
-            foreach (var key in Request.Query.Keys)
+            try
             {
-                queryParams.Add(key, Request.Query[key].ToString());
-            }
+                var response = _vnPayService.ProcessVNPayCallback(Request.Query);
 
-            if (!_vnpayService.VerifyPayment(queryParams))
-            {
-                return BadRequest("Invalid payment signature.");
-            }
+                _logger.LogInformation($"VNPay callback - OrderId: {response.OrderId}, Success: {response.Success}");
 
-            var vnpTxnRef = queryParams["vnp_TxnRef"];
-            var vnpTransactionNo = queryParams["vnp_TransactionNo"];
-            var vnpResponseCode = queryParams["vnp_ResponseCode"];
-
-            if (string.IsNullOrEmpty(vnpResponseCode))
-            {
-                return BadRequest("Missing response code.");
-            }
-
-            var vnpResponseCodeInt = int.Parse(vnpResponseCode);
-
-            if (vnpResponseCodeInt == 0) // Thành công
-            {
-                // Cập nhật BookPurchase hoặc SubscriptionPurchase
-                var purchaseId = int.Parse(vnpTxnRef);
-                var bookPurchase = await _unitOfWork.BookPurchases.GetByIdAsync(purchaseId);
-                if (bookPurchase != null)
+                if (!response.IsValidSignature)
                 {
-                    bookPurchase.PaymentStatusId = 1; // Success
-                    bookPurchase.TransactionId = vnpTransactionNo;
-                    await _unitOfWork.BookPurchases.UpdateAsync(bookPurchase);
+                    _logger.LogWarning("Invalid VNPay signature");
+                    return BadRequest(new { message = "Invalid signature" });
                 }
-                else
+                
+                if (response.OrderId.StartsWith("SUB")) // Thành công
                 {
-                    var subscriptionPurchase = await _unitOfWork.SubscriptionPurchases.GetByIdAsync(purchaseId);
-                    if (subscriptionPurchase != null)
+                    var purchaseId = int.Parse(response.OrderId.Substring(3));
+                    var purchase = await _unitOfWork.SubscriptionPurchases.GetByIdAsync(purchaseId);
+                    if (purchase == null)
                     {
-                        subscriptionPurchase.PaymentStatusId = 1; // Success
-                        subscriptionPurchase.TransactionId = vnpTransactionNo;
-                        await _unitOfWork.SubscriptionPurchases.UpdateAsync(subscriptionPurchase);
+                        return NotFound(new { message = "Subscription purchase not found" });
+                    }
+                    if (response.Success)
+                    {
+                        purchase.PaymentStatusId = 2; // Completed
+                        purchase.TransactionId = response.TransactionId;
+                        purchase.PaymentDate = response.PaymentDate;                       
                     }
                     else
                     {
-                        return NotFound("Purchase record not found.");
+                        purchase.PaymentStatusId = 3; // Failed
                     }
-                }
-                await _unitOfWork.CompleteAsync();
-            }
-            else
-            {
-                // Cập nhật thành Failed
-                var purchaseId = int.Parse(vnpTxnRef);
-                var bookPurchase = await _unitOfWork.BookPurchases.GetByIdAsync(purchaseId);
-                if (bookPurchase != null)
-                {
-                    bookPurchase.PaymentStatusId = 3; // Failed
-                    bookPurchase.TransactionId = vnpTransactionNo;
-                    await _unitOfWork.BookPurchases.UpdateAsync(bookPurchase);
+                    await _unitOfWork.SubscriptionPurchases.UpdateAsync(purchase);
+                    await _unitOfWork.CompleteAsync();
+                    // Redirect về frontend với kết quả
+                    var redirectUrl = response.Success
+                        ? $"http://localhost:3000/payment-success?type=subscription&id={purchaseId}"
+                        : $"http://localhost:3000/payment-failed?code={response.ResponseCode}";
+
+                    return Redirect(redirectUrl);
                 }
                 else
                 {
-                    var subscriptionPurchase = await _unitOfWork.SubscriptionPurchases.GetByIdAsync(purchaseId);
-                    if (subscriptionPurchase != null)
+                    // Xử lý Book payment
+                    var purchaseId = int.Parse(response.OrderId);
+                    var purchase = await _unitOfWork.BookPurchases.GetByIdAsync(purchaseId);
+
+                    if (purchase == null)
+                        return NotFound(new { message = "Book purchase not found" });
+
+                    if (response.Success)
                     {
-                        subscriptionPurchase.PaymentStatusId = 3; // Failed
-                        subscriptionPurchase.TransactionId = vnpTransactionNo;
-                        await _unitOfWork.SubscriptionPurchases.UpdateAsync(subscriptionPurchase);
+                        purchase.PaymentStatusId = 2; // Completed
+                        purchase.TransactionId = response.TransactionId;
+                        purchase.PaymentDate = response.PaymentDate;
                     }
                     else
                     {
-                        return NotFound("Purchase record not found.");
+                        purchase.PaymentStatusId = 3; // Failed
                     }
-                }
-                await _unitOfWork.CompleteAsync();
-            }
 
-            // Chuyển hướng về frontend sau khi xử lý
-            //return Redirect("http://localhost:3000/payment-result?status=" + (vnpResponseCodeInt == 0 ? "success" : "failed"));
-            return Redirect("http://localhost:3000/");
+                    await _unitOfWork.BookPurchases.UpdateAsync(purchase);
+                    await _unitOfWork.CompleteAsync();
+
+
+                    // Redirect về frontend với kết quả
+                    var redirectUrl = response.Success
+                        ? $"http://localhost:3000/payment-success?type=book&id={purchaseId}"
+                        : $"http://localhost:3000/payment-failed?code={response.ResponseCode}";
+
+                    return Redirect(redirectUrl);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error processing VNPay callback.");
+                return StatusCode(500, "An error occurred while processing the payment callback.");
+            }
         }
     }
+
 }

@@ -10,6 +10,7 @@ namespace API.Controllers
 {
     [Route("api/comics/{comicId}/[controller]")]
     [ApiController]
+
     public class ChaptersController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -51,65 +52,79 @@ namespace API.Controllers
         [AllowAnonymous] // Cho phép truy cập không cần đăng nhập
         public async Task<ActionResult<ChapterResponseDto>> GetChapterById(int comicId, int chapterId)
         {
-            // Lấy thông tin chapter
-            var chapter = await _unitOfWork.Chapters.GetByIdAsync(chapterId);
-            if (chapter == null || chapter.ComicId != comicId)
+            try
             {
-                return NotFound("Chapter or Comic not found.");
-            }
-
-            // Lấy thông tin comic để kiểm tra giá
-            var comic = await _unitOfWork.Comics.GetByIdAsync(comicId);
-            if (comic == null)
-            {
-                return NotFound("Comic not found.");
-            }
-
-            // Kiểm tra quyền truy cập
-            if (comic.Price > 0) // Comic có phí
-            {
-                //var userName = User.FindFirst(ClaimTypes.Name)?.Value;
-                var userName = User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value;
-                var isAdmin = User.IsInRole("Admin");
-
-                if (!isAdmin) // Không phải Admin
+                // Lấy thông tin chapter
+                var chapter = await _unitOfWork.Chapters.GetByIdAsync(chapterId);
+                if (chapter == null || chapter.ComicId != comicId)
                 {
-                    if (string.IsNullOrEmpty(userName)) // Chưa đăng nhập
+                    return NotFound("Chapter or Comic not found.");
+                }
+
+                // Lấy thông tin comic để kiểm tra giá
+                var comic = await _unitOfWork.Comics.GetByIdAsync(comicId);
+                if (comic == null)
+                {
+                    return NotFound("Comic not found.");
+                }
+
+                // Kiểm tra quyền truy cập
+                if (comic.Price > 0) // Comic có phí
+                {
+                    //var userName = User.FindFirst(ClaimTypes.Name)?.Value;
+                    //var userName = User.FindFirst(JwtRegisteredClaimNames.Sub)?.Value;
+                    var userName = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                    var isAdmin = User.IsInRole("Admin");
+                    //Debug
+                    Console.WriteLine($"User truy cap la: {userName}");
+                    if (!isAdmin) // Không phải Admin
                     {
-                        return Unauthorized("You must be logged in to access paid content.");
-                    }
+                        if (string.IsNullOrEmpty(userName)) // Chưa đăng nhập
+                        {
+                            return Unauthorized("You must be logged in to access paid content.");
+                        }
 
-                    // Kiểm tra BookPurchase
-                    var hasPurchased = await _unitOfWork.BookPurchases.GetPurchasedComicsAsync(userName);
-                    var isPurchased = hasPurchased.Any(p => p.ComicId == comicId && p.PaymentStatusId == 2);
+                        // Kiểm tra BookPurchase
+                        var hasPurchased = await _unitOfWork.BookPurchases.GetPurchasedComicsAsync(userName);
+                        var isPurchased = hasPurchased.Any(p => p.ComicId == comicId && p.PaymentStatusId == 2);
 
-                    // Kiểm tra SubscriptionPurchase còn hiệu lực
-                    var activeSubscriptions = await _unitOfWork.SubscriptionPurchases.GetActiveSubscriptionsAsync(userName);
-                    var hasActiveSubscription = activeSubscriptions.Any();
+                        // Kiểm tra SubscriptionPurchase còn hiệu lực
+                        var activeSubscriptions = await _unitOfWork.SubscriptionPurchases.GetActiveSubscriptionsAsync(userName);
+                        var hasActiveSubscription = activeSubscriptions.Any();
 
-                    if (!isPurchased && !hasActiveSubscription)
-                    {
-                        return Forbid("You have not purchased this comic or have an active subscription.");
+                        if (!isPurchased && !hasActiveSubscription)
+                        {
+                            // SỬA CHÍNH Ở ĐÂY: Không truyền string vào Forbid()
+                            return Forbid(); // hoặc StatusCode(403, "bạn chưa mua...")
+                                             // Nếu muốn trả message đẹp thì dùng:
+                                             // return StatusCode(403, "Bạn chưa mua truyện này hoặc không có gói hội viên đang hoạt động.");
+                        }
                     }
                 }
+
+                // Tạo response
+                var response = new ChapterResponseDto
+                {
+                    ChapterId = chapter.ChapterId,
+                    ComicId = chapter.ComicId,
+                    ChapterNumber = chapter.ChapterNumber,
+                    ChapterTitle = chapter.ChapterTitle,
+                    CreateAt = chapter.CreateAt,
+                    ChapterImages = (await _unitOfWork.ChapterImages.GetImagesByChapterIdAsync(chapterId)).ToList()
+                };
+
+                // Tăng view chỉ khi truy cập thành công
+                await _unitOfWork.Comics.IncrementViewAsync(comicId);
+                await _unitOfWork.CompleteAsync();
+
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                // Log ex nếu cần
+                return StatusCode(500, "Đã có lỗi xảy ra, vui lòng thử lại sau.");
             }
 
-            // Tạo response
-            var response = new ChapterResponseDto
-            {
-                ChapterId = chapter.ChapterId,
-                ComicId = chapter.ComicId,
-                ChapterNumber = chapter.ChapterNumber,
-                ChapterTitle = chapter.ChapterTitle,
-                CreateAt = chapter.CreateAt,
-                ChapterImages = (await _unitOfWork.ChapterImages.GetImagesByChapterIdAsync(chapterId)).ToList()
-            };
-
-            // Tăng view chỉ khi truy cập thành công
-            await _unitOfWork.Comics.IncrementViewAsync(comicId);
-            await _unitOfWork.CompleteAsync();
-
-            return Ok(response);
         }
         
 

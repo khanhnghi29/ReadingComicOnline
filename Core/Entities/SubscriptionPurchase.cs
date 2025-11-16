@@ -14,7 +14,7 @@ namespace Core.Entities
         public int PaymentMethodId { get; set; }
         public int PaymentStatusId { get; set; }
         public DateTime PaymentDate { get; set; }
-        public DateTime ExpireDate { get; set; }
+        public DateTime ExpiryDate { get; set; }
         public string TransactionId { get; set; }
         public decimal Amount { get; set; }
         public User User { get; set; }

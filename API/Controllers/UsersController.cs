@@ -1,6 +1,7 @@
 ﻿using Core.Dtos;
 using Core.Interfaces;
 using Infrastructure.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -64,6 +65,28 @@ namespace API.Controllers
             var token = _jwtService.GenerateToken(user);
             Console.WriteLine($"User {dto.UserName} đã đăng nhập thành công");
             return Ok(new { message = "Login successful", token, username = user.UserName, roleId = user.RoleId });
+        }
+        [HttpGet("{userName}/purchased-comics")]
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<BookPurchasedResponseDto>>> GetMyPurchases(string userName)
+        {
+            if (string.IsNullOrWhiteSpace(userName))
+            {
+                return BadRequest("UserName is required.");
+            }               
+            var purchases = await _unitOfWork.BookPurchases.GetPurchasedComicsAsync(userName);
+            return Ok(purchases);
+        }
+        [HttpGet("{userName}/active-subscriptions")]
+        [Authorize]
+        public async Task<IActionResult> GetActiveSubscriptions(string userName)
+        {
+            if (string.IsNullOrWhiteSpace(userName))
+            {
+                return BadRequest("UserName is required.");
+            }
+            var activeSubs = await _unitOfWork.SubscriptionPurchases.GetActiveSubscriptionsAsync(userName);
+            return Ok(activeSubs);
         }
     }
 }

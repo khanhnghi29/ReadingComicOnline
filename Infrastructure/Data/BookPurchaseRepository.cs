@@ -7,6 +7,7 @@ using Core.Entities;
 using Infrastructure.Context;
 using Dapper;
 using Core.Interfaces;
+using Core.Dtos;
 
 namespace Infrastructure.Data
 {
@@ -19,15 +20,17 @@ namespace Infrastructure.Data
             _context = context;
         }
 
-        public async Task<BookPurchase> AddAsync(BookPurchase entity)
+        public async Task<int> AddAsync(BookPurchaseDto dto)
         {
-            var query = @"INSERT INTO BookPurchases (UserName, ComicId, PaymentMethodId, PaymentStatusId, PaymentDate, TransactionId, Amount)
-                         VALUES (@UserName, @ComicId, @PaymentMethodId, @PaymentStatusId, @PaymentDate, @TransactionId, @Amount);
-                         SELECT SCOPE_IDENTITY();";
+            var query = @"
+        INSERT INTO BookPurchases (UserName, ComicId, PaymentMethodId, PaymentStatusId, PaymentDate, TransactionId, Amount)
+        VALUES (@UserName, @ComicId, @PaymentMethodId, @PaymentStatusId, @PaymentDate, @TransactionId, @Amount);
+        SELECT CAST(SCOPE_IDENTITY() AS INT);";
+
             using (var connection = _context.CreateConnection())
             {
-                await connection.ExecuteAsync(query, entity);
-                return entity;
+                var purchaseId = await connection.ExecuteScalarAsync<int>(query, dto);
+                return purchaseId;
             }
         }
 
@@ -58,15 +61,29 @@ namespace Infrastructure.Data
             }
         }
 
-        public async Task<IEnumerable<BookPurchase>> GetPurchasedComicsAsync(string userName)
+        public async Task<IEnumerable<BookPurchasedResponseDto>> GetPurchasedComicsAsync(string userName)
         {
-            var query = @"SELECT bp.*, c.Title, c.ComicImageUrl, c.Price 
-                         FROM BookPurchases bp 
-                         INNER JOIN Comics c ON bp.ComicId = c.ComicId 
-                         WHERE bp.UserName = @UserName AND bp.PaymentStatusId = 2"; // Success
+            var query = @"
+        SELECT 
+            bp.PurchaseId,
+            bp.UserName,
+            bp.ComicId,
+            bp.PaymentMethodId,
+            bp.PaymentStatusId,
+            bp.PaymentDate,
+            bp.TransactionId,
+            bp.Amount,
+            c.Title AS ComicTitle,
+            c.ComicImageUrl
+        FROM BookPurchases bp
+        INNER JOIN Comics c ON bp.ComicId = c.ComicId
+        WHERE bp.UserName = @UserName 
+          AND bp.PaymentStatusId = 2"; // 2 = Success
+
             using (var connection = _context.CreateConnection())
             {
-                return await connection.QueryAsync<BookPurchase>(query, new { UserName = userName });
+                var results = await connection.QueryAsync<BookPurchasedResponseDto>(query, new { UserName = userName });
+                return results;
             }
         }
     }

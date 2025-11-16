@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using Core.Entities;
 using Infrastructure.Context;
 using Dapper;
-using Core.Interfaces;  
+using Core.Interfaces;
+using Core.Dtos;
 namespace Infrastructure.Data
 {
     public class SubscriptionPurchaseRepository : ISubscriptionPurchaseRepository
@@ -18,15 +19,17 @@ namespace Infrastructure.Data
             _context = context;
         }
 
-        public async Task<SubscriptionPurchase> AddAsync(SubscriptionPurchase entity)
+        public async Task<int> AddAsync(SubscriptionPurchaseDto dto)
         {
-            var query = @"INSERT INTO SubscriptionPurchases (UserName, SubscriptionId, PaymentMethodId, PaymentStatusId, PaymentDate, ExpireDate, TransactionId, Amount)
-                         VALUES (@UserName, @SubscriptionId, @PaymentMethodId, @PaymentStatusId, @PaymentDate, @ExpireDate, @TransactionId, @Amount);
-                         SELECT SCOPE_IDENTITY();";
+            var query = @"
+        INSERT INTO SubscriptionPurchases (UserName, SubscriptionId, PaymentMethodId, PaymentStatusId, PaymentDate, ExpiryDate, TransactionId, Amount)
+        VALUES (@UserName, @SubscriptionId, @PaymentMethodId, @PaymentStatusId, @PaymentDate, @ExpiryDate, @TransactionId, @Amount);
+        SELECT CAST(SCOPE_IDENTITY() AS INT);";
+
             using (var connection = _context.CreateConnection())
             {
-                await connection.ExecuteAsync(query, entity);
-                return entity;
+                var purchaseId = await connection.ExecuteScalarAsync<int>(query, dto);
+                return purchaseId;
             }
         }
 
@@ -59,7 +62,7 @@ namespace Infrastructure.Data
 
         public async Task<IEnumerable<SubscriptionPurchase>> GetActiveSubscriptionsAsync(string userName)
         {
-            var query = @"SELECT * FROM SubscriptionPurchases WHERE UserName = @UserName AND PaymentStatusId = 2 AND ExpireDate > GETDATE()";
+            var query = @"SELECT * FROM SubscriptionPurchases WHERE UserName = @UserName AND PaymentStatusId = 2 AND ExpiryDate > GETDATE()";
             using (var connection = _context.CreateConnection())
             {
                 return await connection.QueryAsync<SubscriptionPurchase>(query, new { UserName = userName });

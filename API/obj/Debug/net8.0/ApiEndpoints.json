@@ -602,8 +602,13 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "request",
+        "Type": "Core.Dtos.CreateBookPaymentRequest",
+        "IsRequired": true
+      },
+      {
         "Name": "comicId",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -628,8 +633,13 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "request",
+        "Type": "Core.Dtos.CreateSubscriptionPaymentRequest",
+        "IsRequired": true
+      },
+      {
         "Name": "subscriptionId",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -654,6 +664,48 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsersController",
+    "Method": "GetActiveSubscriptions",
+    "RelativePath": "api/Users/{userName}/active-subscriptions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UsersController",
+    "Method": "GetMyPurchases",
+    "RelativePath": "api/Users/{userName}/purchased-comics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.Dtos.BookPurchasedResponseDto, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "API.Controllers.UsersController",

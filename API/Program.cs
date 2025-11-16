@@ -28,6 +28,8 @@ namespace API
                                 60
             ));
             builder.Services.AddScoped<VNPayService>();
+            // Add HttpContextAccessor for VNPayService
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<UploadService>();          
             builder.Services.AddControllers();
@@ -92,7 +94,7 @@ namespace API
                         ValidIssuer = builder.Configuration["Jwt:Issuer"],
                         ValidAudience = builder.Configuration["Jwt:Audience"],
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"])),
-                        NameClaimType = ClaimTypes.NameIdentifier // Ánh x? "sub" thành NameIdentifier
+                        NameClaimType = ClaimTypes.NameIdentifier // Map "sub"  NameIdentifier
                     };
 
                     options.Events = new JwtBearerEvents
